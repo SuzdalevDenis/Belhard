@@ -1,3 +1,1 @@
-# HelloWorld
-# GGez
-# Homework
+text = "wasd"
