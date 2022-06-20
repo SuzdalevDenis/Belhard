@@ -1,4 +1,4 @@
-word = input('Введите слово:')
-
-lst.count(word)
-print(lst.count)
+text = input('Введите текст:')
+dict1 = {'letters' in text}
+data = [letters].count(text)
+print(data)
