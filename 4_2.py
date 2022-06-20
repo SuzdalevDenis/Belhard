@@ -1,4 +1,3 @@
 text = input('Введите текст:')
-dict1 = {'letters' in text}
-data = [letters].count(text)
-print(data)
+dict1 = {i: text.count(i) for i in text}
+print(dict1)
