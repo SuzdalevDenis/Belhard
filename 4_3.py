@@ -1,8 +1,8 @@
 kol = 11
-dicts = {}
-keys = (0, -1)
-dicts1 = {}
-keys["name"] = input('name:')
-keys["email"] = input('email:')
-res = [i for i in range(kol, 0, -1)]
-print(res)
+dict1 = x: {'name':input(), 'email':input()}
+
+dicts2 = {}
+dicts2['name'] = {"word"}
+dicts2['email'] = {"word"}
+
+print(dicts2, dict1)
