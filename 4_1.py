@@ -1,3 +1,3 @@
-kol = 11
-Nomb = [2**i for i in range(kol, 0, -1)]
+kol = int(input("kol":))
+Nomb = [2**i for i in range(kol)]
 print(Nomb)
