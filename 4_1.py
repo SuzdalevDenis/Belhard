@@ -1,3 +1,3 @@
-kol = 9
+kol = 11
 Nomb = [2**i for i in range(kol, 0, -1)]
 print(Nomb)
