@@ -1,5 +1,6 @@
 text = "LONDON"
 key = "SYSTEM"
+
 char = bin(ord("L"))[2:]
 char = '0' * (8 - len(char)) + char
 char2 = bin(ord("O"))[2:]
@@ -13,7 +14,7 @@ char5 = '0' * (8 - len(char5)) + char5
 char6 = bin(ord("N"))[2:]
 char6 = '0' * (8 - len(char6)) + char6
 charx = char + ' ' + char2 + ' ' + char3 + ' ' + char4 + ' ' + char5 + ' ' + char6
-charx1 = charx
+
 chart = bin(ord("S"))[2:]
 chart = '0' * (8 - len(chart)) + chart
 chart2 = bin(ord("Y"))[2:]
@@ -27,6 +28,7 @@ chart5 = '0' * (8 - len(chart5)) + chart5
 chart6 = bin(ord("M"))[2:]
 chart6 = '0' * (8 - len(chart6)) + chart6
 chartx = chart + ' ' + chart2 + ' ' + chart3 + ' ' + chart4 + ' ' + chart5 + ' ' + chart6
+
 char_end =
 print(charx)
 print(chartx)
