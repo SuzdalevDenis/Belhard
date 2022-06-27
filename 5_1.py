@@ -12,8 +12,10 @@ m = int(input('m='))
 k = int(input('k='))
 i = k
 count = 0
-while count < n:
+while count < n:     #while True:
     if not i % m:
         count +=1
         print(i)
     i +=1
+    #if count == n:
+        #break
